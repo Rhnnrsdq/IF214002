@@ -3,8 +3,9 @@
 ## Deskripsi
 
 Aplikasi ini berupaya untuk mempermudah pendataan atau pencarian arsip kantor pada gudang arsip. Aplikasi ini memiliki fitur utama seperti :
-- Pencarian data arsip berdasarkan rak
-- Pencarian data arsip berdasarkan lokasi arsip
+- Mempermudah pencarian data arsip berdasarkan rak
+- Mempermudah pencarian data arsip berdasarkan lokasi arsip
+- menambah dan menghapus arsip data berdasarkan status
 
 ## Entitas dan Atribut
 
