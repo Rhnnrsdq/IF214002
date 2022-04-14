@@ -29,3 +29,20 @@
 ||Tanggal Mulai Jabatan|
 ||Jabatan|
 ||Masa Jabatan|
+
+```sql
+CREATE TABLE karyawan (
+	id int DEFAULT 0 NOT null,
+	nama_karyawan Varchar(255) not null,
+	usia Varchar(100) not null,
+	jenis_kelamin ENUM("L","P"),
+	PRIMARY KEY(id)
+);
+
+CREATE TABLE histori_gaji (
+  	id_karyawan int DEFAULT 0 not null,
+	tanggal_mulai_gaji DATe not null,
+  	gaji_bulanan Int(10) not null,
+  	PRIMARY KEY(id_karyawan, tanggal_mulai_gaji)
+);
+```
