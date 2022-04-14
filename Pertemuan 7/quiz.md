@@ -45,4 +45,20 @@ CREATE TABLE histori_gaji (
   	gaji_bulanan Int(10) not null,
   	PRIMARY KEY(id_karyawan, tanggal_mulai_gaji)
 );
+
+CREATE TABLE histori_tempat_tinggal (
+	id_karyawan int DEFAULT 0 not null,
+  	nama_karyawan varchar(255) not null,
+  	alamat varchar(255),
+  	PRIMARY KEY (id_karyawan)
+);
+
+CREATE TABLE jabatan (
+	id_karyawan InT DEFAULT 0 not null,
+  	nama_karyawan varchar(255) not null,
+  	tanggal_mulai_jabatan Date,
+  	jabatan Varchar(100) not null,
+  	masa_jabatan int(10)
+  	PRIMARY Key(id_karyawan)
+);
 ```
