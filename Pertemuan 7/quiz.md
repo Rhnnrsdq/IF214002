@@ -26,6 +26,7 @@
 ||Histori Jabatan|
 |---|---|
 |PK|ID Karyawan|
+||Nama Karyawan|
 ||Tanggal Mulai Jabatan|
 ||Jabatan|
 ||Masa Jabatan|
