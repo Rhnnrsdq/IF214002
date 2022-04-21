@@ -2,7 +2,7 @@
 1. Basis data relasional dapat langsung dibangun menggunakan perintah SQL di sistem basis data seperti MySQL, dsb tanpa ada perancangan terlebih dahulu. 
 Jelaskan apa keuntungan melakukan perancangan basis data terlebih dahulu (menggunakan ERD ataupun Class Diagram) !
 - Jawab : 
-Keuntungan dari melakukan perancangan basis data terlebih dahulu adalah agar bisa mengelompokkan data dan informasi sehingga lebih mudah dimengerti. Mencegah terjadinya duplikat data maupun inkonsistensi data. Mempermudah proses penyimpanan, akses, pembaharuan, dan menghapus data. Menjaga kualitas data dan informasi yang diakses sesuai dengan yang diinput.
+Keuntungan dari melakukan perancangan basis data terlebih dahulu adalah agar meminimalasir terjadinya kesalahan yang muncul dan apabila suatu saat terdapat penambahan fitur yang akan ditambahkan dengan merancang database terlebih dahulu kita akan bisa tau mengenai apa saja yang kurang, apa saja yang tidak tepat dan apa saja yang harus ditambahkan yang menjadikan pembuatan database lebih efektif daripada langsung membuatnya begitu saja tanpa merancangnya terlebih dahulu 
 
 2. Jelaskan bagaimana cara mentransformasikan proses bisnis sebuah organisasi menjadi struktur data di basis data !
 - Jawab : - Menentukan tujuan dari pembuatan database
