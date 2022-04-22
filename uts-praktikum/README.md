@@ -69,7 +69,6 @@ CREATE TABLE registrasi_arsip (
 	id_arsip int(10) Not null,
   	kode_rak Int(10) not null,
   	PRIMARY KEY(no_reg),
-  	FOREIGN KEY(id_arsip)
 );
 
 CREATE TABLE arsip (
@@ -77,7 +76,7 @@ CREATE TABLE arsip (
   	judul_arsip varchar(255) not null,
   	tahun_arsip DATE not null,
   	tgl_pengadaan DATE not null,
-  	jumlah_arsip Varchar(10) not null
+  	jumlah_arsip Varchar(10) not null,
   	PRIMARY KEY (id_arsip)
 );
 
@@ -86,4 +85,6 @@ CREATE TABLE rak (
   	kode_rak int(10) not null,
   	PRIMARY KEY (lokasi_arsip)
 );
+
+ALTER TABLE registrasi_arsip ADD FOREIGN KEY (id_arsip) REFERENCES arsip(id_arsip);
 ```
