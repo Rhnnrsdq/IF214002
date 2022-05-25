@@ -8,7 +8,7 @@ CREATE TABLE karyawan (
 	nama_karyawan Varchar(255) Not null,
   	alamat_karyawan Varchar(255) not null,
   	no_hp Varchar(15),
-  	PRIMARY KEY(no_reg)
+  	PRIMARY KEY(id_karyawan)
 );
 ```
 ### registrasi_arsip
@@ -43,4 +43,10 @@ CREATE TABLE rak (
 ALTER TABLE registrasi_arsip ADD FOREIGN KEY (id_arsip) REFERENCES arsip(id_arsip);
 ```
 # DML
+### karyawan
+```sql
+insert into karyawan (id_karyawan, nama_karyawan, alamat_karyawan, no_hp) values (1, 'Raihan Nur Sidiq', Komp.Abdi Negara II, '+82 123 456 7891');
+insert into karyawan (id_karyawan, nama_karyawan, alamat_karyawan, no_hp) values (2, 'Jajang Maulana', Permata Biru, '+81 231 654 9876');
+insert into karyawan (id_karyawan, nama_karyawan, alamat_karyawan, no_hp) values (3, 'Harris Repen', Ujung Berung, '+81 342 353 5342');
+```
 # DQL
