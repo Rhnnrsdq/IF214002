@@ -17,7 +17,7 @@ CREATE TABLE registrasi_arsip (
   	no_reg int DEFAULT 0 not null,
 	id_arsip int(10) Not null,
   	kode_rak Int(10) not null,
-  	PRIMARY KEY(no_reg),
+  	PRIMARY KEY(no_reg)
 );
 ```
 ### arsip
