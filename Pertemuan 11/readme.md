@@ -63,8 +63,8 @@ insert into arsip (id_arsip, judul_arsip, tahun_arsip, tgl_pengadaan, jumlah_ars
 ```
 ### rak
 ```sql
-insert into rak (lokasi_arsip, kode_rak) values (1, 'baris 3', '2');
-insert into rak (lokasi_arsip, kode_rak) values (2, 'baris 1', '1');
-insert into rak (lokasi_arsip, kode_rak) values (3, 'baris 1', '3');
+insert into rak (lokasi_arsip, kode_rak) values (1, 'b3', '2');
+insert into rak (lokasi_arsip, kode_rak) values (2, 'b1', '1');
+insert into rak (lokasi_arsip, kode_rak) values (3, 'b1', '3');
 ```
 # DQL
