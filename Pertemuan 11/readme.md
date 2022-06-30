@@ -41,9 +41,9 @@ ALTER TABLE registrasi_arsip ADD FOREIGN KEY (id_arsip) REFERENCES arsip(id_arsi
 ```
 # DML
 ```sql
-insert into karyawan (id_karyawan, nama_karyawan, alamat_karyawan, no_hp) values (1, 'Raihan Nur Sidiq', 'Komp.Abdi Negara II', '+82 123 456 7891');
-insert into karyawan (id_karyawan, nama_karyawan, alamat_karyawan, no_hp) values (2, 'Jajang Maulana', 'Permata Biru', '+81 231 654 9876');
-insert into karyawan (id_karyawan, nama_karyawan, alamat_karyawan, no_hp) values (3, 'Harris Repen', 'Ujung Berung', '+81 342 353 5342');
+insert into karyawan (id_karyawan, nama_karyawan, alamat_karyawan, no_hp) values (1, 'Raihan Nur Sidiq', 'Komp.Abdi Negara II', '+82 123 456 781');
+insert into karyawan (id_karyawan, nama_karyawan, alamat_karyawan, no_hp) values (2, 'Jajang Maulana', 'Permata Biru', '+81 231 654 986');
+insert into karyawan (id_karyawan, nama_karyawan, alamat_karyawan, no_hp) values (3, 'Harris Repen', 'Ujung Berung', '+81 342 353 532');
 ```
 ```sql
 insert into registrasi_arsip (no_reg, id_arsip, kode_rak) values (1, '1', '1');
@@ -61,3 +61,8 @@ insert into rak (lokasi_arsip, kode_rak) values (2, 'b1', '1');
 insert into rak (lokasi_arsip, kode_rak) values (3, 'b1', '3');
 ```
 # DQL
+```sql
+SELECT karyawan.'id_karyawan', arsip.'id_arsip'
+FROM karyawan, arsip
+WHERE karyawan.'id_karyawan'= arsip.'id_arsip'
+```
