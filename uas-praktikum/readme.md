@@ -78,4 +78,4 @@ where users.`id_user` = pesanan.`id_user` && pesanan_details.`id_pesanan_detail`
 - [Demo Web Project - Lashoped](https://youtu.be/Yr0URUCtrNs)
 
 ## Link Github Project
-- - [Lashoped](https://github.com/Rhnnrsdq/lashoped)
+- [Lashoped](https://github.com/Rhnnrsdq/lashoped)
