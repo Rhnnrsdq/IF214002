@@ -1,4 +1,4 @@
-# Ide Solusi : Sistem Penjualan Sepatu berMerk Original
+# Ide Solusi : Sistem Penjualan Sepatu berMerk Original Trusted
 
 ![DIAGRAM-LASHOPED](https://user-images.githubusercontent.com/100889878/176704382-b0bb2dbb-249d-4322-8118-d8cf80bc4661.png)
 
