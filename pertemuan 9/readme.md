@@ -1,4 +1,3 @@
-
 # DDL
 ## Create Table
 ```sql
