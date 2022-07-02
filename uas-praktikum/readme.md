@@ -73,3 +73,6 @@ SELECT pesanan.`id_pesanan`,users.`id_user` AS nama_pembeli, barang.`harga`,pesa
 FROM pesanan,users,barang,pesanan_details
 where users.`id_user` = pesanan.`id_user` && pesanan_details.`id_pesanan_detail` = pesanan.`id_pesanan`
 ```
+
+## Link Demo Youtube
+- [Demo Web Project - Lashoped](https://youtu.be/Yr0URUCtrNs)
